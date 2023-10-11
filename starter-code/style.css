@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #FFFFFF;
+  }
+
+    main {
+    background-color:#151515;
+    color: #FFFFFF;
+    font-family: Space Grotesk;
+    margin-inline: auto;
+    width: 600px;
+    background-image: url(./assets/images/image-profile-desktop.webp);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 370px; 
+  } 
+
+  .logo {
+    padding-left: 3rem;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .icons {
+    margin-right: 40px;
+    padding-right: 1rem;
+  }
+
+  .icons img{
+    cursor: pointer;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    height: 350px;
+    background-image: url(./assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position-x: -60px;
+    background-position-y: 20px;
+    background-size: 40%;
+    padding: 3rem;
+  }
+
+  header h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 2rem;
+    width: 350px;
+  }
+
+  header h1 u, h4 u, .content h4 u  .info h4 u{
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #4EE1A0;
+    cursor: pointer;
+  }
+
+  header h1 u:hover, h4 u:hover, .content h4 u:hover  .info h4 u:hover{
+    color: #4EE1A0;
+  }
+
+  header p {
+    color: #D9D9D9;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 1rem;
+    background-image: url(./assets/images/pattern-circle.svg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right;
+    background-position-x: 300px;
+    
+  }
+
+  header h4 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 2rem;
+  }
+
+  header h4:hover {
+    color: #4EE1A0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    padding-top: 2rem;
+    background-image: url(./assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 150px;
+    background-size: 250px;
+    padding: 3rem;
+  }
+
+  .content {
+    padding: 3rem;
+  }
+
+  .content h4 {
+    text-align: right;
+    margin-top: -30px;
+    padding-bottom: 3rem;
+  }
+
+  .content h4:hover {
+    color: #4EE1A0;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .box-one img, .box-two img, .box-three img, .box-four img, .box-five img, .box-six img {
+    width: 250px;
+    height: 200px;
+  }
+
+  footer {
+    background-color: #242424;
+    display: flex;
+    width: 100%;
+    background-image: url(./assets/images/pattern-rings.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left;
+    background-position-x: -50px;
+    background-position-y: 180px;
+  }
+
+  .contact {
+    padding: 3rem;
+  }
+
+  .contact p {
+    color: #D9D9D9;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .info {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    text-align: right;
+    padding: 3rem;
+  }
+
+  .info p {
+    color: #D9D9D9;
+    font-size: 18px;
+  }
+
+  .info h4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .info h4:hover {
+    fill: #4EE1A0;
+  }
+
+  .info input {
+    background-color: #242424;
+    padding: 1rem;
+    justify-content: right;
+    width: 200px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .info input:nth-child(3) {
+    height: 90px;
+  }
+
+  .bottom {
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+
+  hr {
+  background-color: #FFFFFF;
+  margin-right: 40px;
+  margin-left: 40px;
+  }
